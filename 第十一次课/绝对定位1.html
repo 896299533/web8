@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: green;
+        }
+        div{
+            background-color: hotpink;
+            width: 400px;
+            height: 300px;
+            margin: 200px;
+        }
+        #grandParents{
+            background-color: red ;
+            width: 600px;
+            height: 400px;
+            margin: 200px 300px 400px;
+        }
+        
+        
+        .parent1{
+            background-color: rgb(135, 172, 240);
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .parent2{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="grandParents">
+        <div class="parent1">
+            <div class="son1"></div>
+        </div>
+        <div class="parent2">
+            <div class="son2"></div>
+        </div>
+    </div>
+</body>
+</html>
