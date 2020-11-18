@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            width: 50px;
+            height: 50px;
+            background-color: lightblue;
+            border: 10px solid hotpink;
+        }
+        #wrapper:hover{
+            width: 500px;
+            height: 300px;
+            transition: all ease 5s 2s;
+            /* ease 时间函数  all代表宽度高度同时改变
+            transition：width ease 5s 只变宽度   2s延迟两秒*/
+        }
+    
+    </style>
+    
+</head>
+<body onload="init()">
+    <div id="wrapper"></div>
+    <script>
+        function init(){
+        var target = window.document.getElementById("wrapper");
+        target.style.backgroundColor="blue";
+        }
+    </script>
+</body>
+</html>
+<!-- js里变量：var，let 常量：const
+声明变量：var Apple = 20；
+var lemon = “柠檬” ;
+var banner = true；
+var pear = null；
+var orange = undefined;【var数字和字符串都可以赋值】-->
+<!-- var peach = function peachSum(){} [function 函数] -->
+<!-- var watermelon =  -->
