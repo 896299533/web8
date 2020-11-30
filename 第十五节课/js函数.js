@@ -71,21 +71,25 @@ console.log(a5);
 //()(),前面定义函数，并执行，自我调用
 
 //原型
-var a7 = function(){
-    console.log("a7 原型")
-}
-a7.prototype.apple = function(){
-    console.log("apple");
-}
-a7.apple()
+// class a7 {
+//     constructor() {
+//         console.log("a7 原型")
+//     }
+//     apple() {
+//         console.log("apple")
+//     }
+// }
+// a7.apple()
 
 
-//原型
-function Furit(){
-    console.log("this is furit");
-}
-Furit.prototype.apple = function apple(){
-    console.log("this ie apple");
-}
-var  a88 = new Furit();
-console.log(a88)
+// //原型
+// class Furit {
+//     constructor() {
+//         console.log("this is furit")
+//     }
+//     apple() {
+//         console.log("this ie apple")
+//     }
+// }
+// var  a88 = new Furit();
+// console.log(a88)
